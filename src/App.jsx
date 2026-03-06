@@ -46,7 +46,7 @@ export default function App() {
         zIndex: 10
     }}
     >
-    HéloWorld!
+    HéloWorld
     </h1>
     </div>
   )
