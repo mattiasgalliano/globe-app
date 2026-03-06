@@ -5,8 +5,8 @@ import Marker from "./Marker"
 
 export default function Globe() {
   const globeRef = useRef()
-
-    const texture = useTexture("/textures/earth.jpg")
+  
+  const texture = useTexture("/earth.jpg")
 
   const markers = [
     { lat: 40.7128, lon: -74.006, image: "https://picsum.photos/200?1" },
